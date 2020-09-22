@@ -1,0 +1,76 @@
+body {
+    background-image: url(https://st2.depositphotos.com/4216129/8739/v/950/depositphotos_87391180-stock-illustration-game-background-vector-illustration-set.jpg);
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+main {
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 300px;
+
+    
+}
+input {
+    margin: 20px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+button {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    color: blue;
+    top: 10px;
+    background-color: rgba(20, 233, 55);
+}
+#counter{
+    display: block;
+    position: relative;
+    top:120px;
+    left: -300px;
+    background-color:#ca2424;
+    color: white;
+    font-size: 24px;
+    height: 26px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#unsuccesful {
+    position: relative;
+    top:100px;
+    left: -340px;
+    background-color:#ca2424;
+    color: white;
+    font-size: 24px;
+    height: 35px;
+    padding: 10px;
+    
+}
+#control:hover {
+    background-color:rgb(148, 9, 9);
+    color: aquamarine;
+}
+
+#result {
+    border: 1px solid blue;
+    background-color: aqua;
+    color:red;
+    position: relative;
+    left: 700px;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
